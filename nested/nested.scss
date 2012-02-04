@@ -1,0 +1,18 @@
+#menu {
+  width: 80%;
+  height: 23px;
+  
+  /* repare que não fechei a chave do estilo #menu */
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    float: left;
+    
+    a {
+      font-weight: bold;
+    }
+  }
+}
