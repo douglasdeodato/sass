@@ -1,14 +1,14 @@
-#menu {
+#nav {
   width: 80%;
   height: 23px;
-  /* repare que não fechei a chave do estilo #menu */
+  /* i am not close { style #nav */
 }
-#menu ul {
+#nav ul {
   list-style: none;
 }
-#menu li {
+#nav li {
   float: left;
 }
-#menu li a {
+#nav li a {
   font-weight: bold;
 }
