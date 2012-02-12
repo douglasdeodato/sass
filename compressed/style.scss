@@ -1,0 +1,26 @@
+$branco: #336699;
+$preto: #000;
+$padding: 10px 20px 30px 40px;
+
+body {
+
+color: $branco;
+padding: $padding;
+
+}
+
+@mixin menu {
+  $side: top;
+  $radius: 10px;
+  $branco: #336699;
+  $preto: #000;
+  $padding: 10px 20px 30px 40px;
+ 
+ 
+  border-#{$side}-radius: $radius;
+  -moz-border-radius-#{$side}: $radius;
+  -webkit-border-#{$side}-radius: $radius;
+}
+ 
+/* chamada do mixin usando @include */
+#menu li { @include menu; }
